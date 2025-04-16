@@ -15,4 +15,19 @@ Si vous souhaitez exécuter le projet localement, suivez ces instructions :
 2. **Ouvrir index.html :**
     Ouvrez le fichier index.html dans votre navigateur web. Vous pouvez le faire en double-cliquant sur le fichier dans votre explorateur de fichiers.
 
+   ou alors::
+**Utiliser un serveur HTTP local avec serve :**
+
+    Installez un outil simple comme serve :
+    --npm install -g serve
+
+**Placez-vous dans le dossier dist :**
+cd dist
+
+Lancez le serveur avec :
+serve -s .
+
+L'application sera disponible sur une URL locale comme http://localhost:3000 (selon le port affiché).
+
+
    
